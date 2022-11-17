@@ -26,13 +26,13 @@ class Solution:
         
         #TODO: write code to calculate how much fat I gained
         #get rid of the 'None" and return whatever you want to return
-        return None
+        return pies*20*2 
     
 #PLEASE DON'T TOUCH ANYTHING DOWN HERE :)))
 def main():
     pies = int(input())
     
-    tc1 = Solution()
+    tc1 = Solution()]
     ans = tc1.apple_pie(pies)
     print(ans)
 
